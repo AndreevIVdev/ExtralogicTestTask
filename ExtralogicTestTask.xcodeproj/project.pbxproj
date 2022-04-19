@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B585B1C280DE464005C75CF /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B1B280DE464005C75CF /* CoreDataManager.swift */; };
+		8B585B23280DE75C005C75CF /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B21280DE75C005C75CF /* Note+CoreDataClass.swift */; };
+		8B585B24280DE75C005C75CF /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B22280DE75C005C75CF /* Note+CoreDataProperties.swift */; };
+		8B585B27280DF9B9005C75CF /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B26280DF9B9005C75CF /* EditNoteViewController.swift */; };
+		8B585B29280EB8CF005C75CF /* String? + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B28280EB8CF005C75CF /* String? + Ext.swift */; };
+		8B585B2F280EDD9A005C75CF /* NotesListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B585B2E280EDD9A005C75CF /* NotesListModel.swift */; };
+		8B585B32280EE9B2005C75CF /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8B585B31280EE9B2005C75CF /* .swiftlint.yml */; };
 		8BDE6324280D850200E79B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6323280D850200E79B0C /* AppDelegate.swift */; };
-		8BDE6326280D850200E79B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6325280D850200E79B0C /* SceneDelegate.swift */; };
-		8BDE6328280D850200E79B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6327280D850200E79B0C /* ViewController.swift */; };
-		8BDE632B280D850200E79B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE6329280D850200E79B0C /* Main.storyboard */; };
 		8BDE632E280D850200E79B0C /* ExtralogicTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE632C280D850200E79B0C /* ExtralogicTestTask.xcdatamodeld */; };
 		8BDE6330280D850300E79B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE632F280D850300E79B0C /* Assets.xcassets */; };
 		8BDE6333280D850300E79B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDE6331280D850300E79B0C /* LaunchScreen.storyboard */; };
+		8BDE633E280DAD5100E79B0C /* NotesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE633D280DAD5100E79B0C /* NotesListViewController.swift */; };
+		8BDE6341280DAF9600E79B0C /* UIView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6340280DAF9600E79B0C /* UIView + Ext.swift */; };
+		8BDE6344280DB12900E79B0C /* NotesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6343280DB12900E79B0C /* NotesListTableViewCell.swift */; };
+		8BDE6347280DBCCE00E79B0C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6346280DBCCE00E79B0C /* Constants.swift */; };
+		8BDE6349280DD2DF00E79B0C /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDE6348280DD2DF00E79B0C /* Date + Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B585B1B280DE464005C75CF /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8B585B21280DE75C005C75CF /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8B585B22280DE75C005C75CF /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8B585B26280DF9B9005C75CF /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		8B585B28280EB8CF005C75CF /* String? + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String? + Ext.swift"; sourceTree = "<group>"; };
+		8B585B2E280EDD9A005C75CF /* NotesListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListModel.swift; sourceTree = "<group>"; };
+		8B585B31280EE9B2005C75CF /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		8BDE6320280D850200E79B0C /* ExtralogicTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtralogicTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDE6323280D850200E79B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BDE6325280D850200E79B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BDE6327280D850200E79B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BDE632A280D850200E79B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BDE632D280D850200E79B0C /* ExtralogicTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExtralogicTestTask.xcdatamodel; sourceTree = "<group>"; };
 		8BDE632F280D850300E79B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDE6332280D850300E79B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BDE6334280D850300E79B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BDE633D280DAD5100E79B0C /* NotesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListViewController.swift; sourceTree = "<group>"; };
+		8BDE6340280DAF9600E79B0C /* UIView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Ext.swift"; sourceTree = "<group>"; };
+		8BDE6343280DB12900E79B0C /* NotesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListTableViewCell.swift; sourceTree = "<group>"; };
+		8BDE6346280DBCCE00E79B0C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8BDE6348280DD2DF00E79B0C /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,10 +57,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B585B15280DE2D1005C75CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B585B21280DE75C005C75CF /* Note+CoreDataClass.swift */,
+				8B585B22280DE75C005C75CF /* Note+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B585B1A280DE44C005C75CF /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8B585B1B280DE464005C75CF /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8B585B25280DF999005C75CF /* EditNote */ = {
+			isa = PBXGroup;
+			children = (
+				8B585B26280DF9B9005C75CF /* EditNoteViewController.swift */,
+			);
+			path = EditNote;
+			sourceTree = "<group>";
+		};
 		8BDE6317280D850200E79B0C = {
 			isa = PBXGroup;
 			children = (
 				8BDE6322280D850200E79B0C /* ExtralogicTestTask */,
+				8B585B31280EE9B2005C75CF /* .swiftlint.yml */,
 				8BDE6321280D850200E79B0C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,16 +102,71 @@
 		8BDE6322280D850200E79B0C /* ExtralogicTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				8B585B1A280DE44C005C75CF /* Managers */,
+				8B585B15280DE2D1005C75CF /* Models */,
+				8BDE6345280DBCBF00E79B0C /* Utilities */,
+				8BDE633B280DAD0E00E79B0C /* Screens */,
+				8BDE633F280DAF6E00E79B0C /* Extensions */,
+				8BDE633A280D862C00E79B0C /* Supporting Files */,
+			);
+			path = ExtralogicTestTask;
+			sourceTree = "<group>";
+		};
+		8BDE633A280D862C00E79B0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				8BDE6323280D850200E79B0C /* AppDelegate.swift */,
-				8BDE6325280D850200E79B0C /* SceneDelegate.swift */,
-				8BDE6327280D850200E79B0C /* ViewController.swift */,
-				8BDE6329280D850200E79B0C /* Main.storyboard */,
-				8BDE632F280D850300E79B0C /* Assets.xcassets */,
 				8BDE6331280D850300E79B0C /* LaunchScreen.storyboard */,
 				8BDE6334280D850300E79B0C /* Info.plist */,
 				8BDE632C280D850200E79B0C /* ExtralogicTestTask.xcdatamodeld */,
+				8BDE632F280D850300E79B0C /* Assets.xcassets */,
 			);
-			path = ExtralogicTestTask;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BDE633B280DAD0E00E79B0C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE633C280DAD1600E79B0C /* NotesList */,
+				8B585B25280DF999005C75CF /* EditNote */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8BDE633C280DAD1600E79B0C /* NotesList */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE6342280DB0D000E79B0C /* CustomViews */,
+				8BDE633D280DAD5100E79B0C /* NotesListViewController.swift */,
+				8B585B2E280EDD9A005C75CF /* NotesListModel.swift */,
+			);
+			path = NotesList;
+			sourceTree = "<group>";
+		};
+		8BDE633F280DAF6E00E79B0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE6340280DAF9600E79B0C /* UIView + Ext.swift */,
+				8BDE6348280DD2DF00E79B0C /* Date + Ext.swift */,
+				8B585B28280EB8CF005C75CF /* String? + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8BDE6342280DB0D000E79B0C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE6343280DB12900E79B0C /* NotesListTableViewCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		8BDE6345280DBCBF00E79B0C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8BDE6346280DBCCE00E79B0C /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,12 +179,15 @@
 				8BDE631C280D850200E79B0C /* Sources */,
 				8BDE631D280D850200E79B0C /* Frameworks */,
 				8BDE631E280D850200E79B0C /* Resources */,
+				8B585B30280EE84A005C75CF /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ExtralogicTestTask;
+			packageProductDependencies = (
+			);
 			productName = ExtralogicTestTask;
 			productReference = 8BDE6320280D850200E79B0C /* ExtralogicTestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +216,8 @@
 				Base,
 			);
 			mainGroup = 8BDE6317280D850200E79B0C;
+			packageReferences = (
+			);
 			productRefGroup = 8BDE6321280D850200E79B0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,13 +232,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B585B32280EE9B2005C75CF /* .swiftlint.yml in Resources */,
 				8BDE6333280D850300E79B0C /* LaunchScreen.storyboard in Resources */,
 				8BDE6330280D850300E79B0C /* Assets.xcassets in Resources */,
-				8BDE632B280D850200E79B0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B585B30280EE84A005C75CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"error: SwiftLint does not exist, download it from https://github.com/realm/SwiftLint\"\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BDE631C280D850200E79B0C /* Sources */ = {
@@ -142,23 +266,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDE632E280D850200E79B0C /* ExtralogicTestTask.xcdatamodeld in Sources */,
-				8BDE6328280D850200E79B0C /* ViewController.swift in Sources */,
+				8BDE633E280DAD5100E79B0C /* NotesListViewController.swift in Sources */,
+				8BDE6341280DAF9600E79B0C /* UIView + Ext.swift in Sources */,
+				8BDE6344280DB12900E79B0C /* NotesListTableViewCell.swift in Sources */,
+				8B585B27280DF9B9005C75CF /* EditNoteViewController.swift in Sources */,
 				8BDE6324280D850200E79B0C /* AppDelegate.swift in Sources */,
-				8BDE6326280D850200E79B0C /* SceneDelegate.swift in Sources */,
+				8B585B2F280EDD9A005C75CF /* NotesListModel.swift in Sources */,
+				8BDE6349280DD2DF00E79B0C /* Date + Ext.swift in Sources */,
+				8B585B23280DE75C005C75CF /* Note+CoreDataClass.swift in Sources */,
+				8B585B29280EB8CF005C75CF /* String? + Ext.swift in Sources */,
+				8BDE6347280DBCCE00E79B0C /* Constants.swift in Sources */,
+				8B585B1C280DE464005C75CF /* CoreDataManager.swift in Sources */,
+				8B585B24280DE75C005C75CF /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BDE6329280D850200E79B0C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BDE632A280D850200E79B0C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BDE6331280D850300E79B0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,10 +418,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X954LPBPCP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExtralogicTestTask/Info.plist;
+				INFOPLIST_FILE = "ExtralogicTestTask/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +432,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,10 +445,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X954LPBPCP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExtralogicTestTask/Info.plist;
+				INFOPLIST_FILE = "ExtralogicTestTask/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +459,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
