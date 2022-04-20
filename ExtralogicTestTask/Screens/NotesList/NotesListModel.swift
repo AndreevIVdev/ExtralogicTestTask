@@ -22,7 +22,7 @@ protocol NotesListModelable: AnyObject {
 
 final class NotesListModel: NSObject {
     private var fetchedResultsController: NSFetchedResultsController<Note>!
-    private var view: NotesListViewable!
+    private weak var view: NotesListViewable!
     
     init(view: NotesListViewable) {
         super.init()
